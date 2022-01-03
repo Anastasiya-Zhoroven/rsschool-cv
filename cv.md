@@ -22,3 +22,11 @@ I started my career as financial analyst in one of the "Big 4"company. I've been
 }
 ````
 ***
+**Courses**  
+1. HTML and CSS basics on [W3C](https://www.w3schools.com) (in progerss)
+1. RS School "JS/FE Pre-School 2022"(in progress)
+***
+**Languages**  
+- English - B2
+- German - A2
+- Russian - Native
