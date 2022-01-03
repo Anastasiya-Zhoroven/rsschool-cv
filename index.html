@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cv</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#contacts" class="nav-link">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a href="#short-summary" class="nav-link">Summary</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#code" class="nav-link">Code</a>
+        </li>
+        <li class="nav-item">
+          <a href="#courses" class="nav-link">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a href="#education" class="nav-link">Education</a>
+        </li>
+        <li class="nav-item">
+          <a href="#languages" class="nav-link">Languages</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main main-container">
+    <section class="section" id="avatar">
+      <img class="avatar" src="./assets/images/avatar.jpg" alt="avatar">
+    </section>
+    <section class="section" id="info">
+      <h1 class="full-name">Anastasiya Zhoroven</h1>
+      <h4 class="position">Junior Front-end Developer</h2>
+    </section>
+    <hr class="separator">
+    <section class="section" id="contacts">
+      <h2 class="section-item">Contact information</h2>
+      <p>
+        Tel.: +375 29 186 90 27<br>
+        Email: anastasiya.zhoroven@gmail.com
+      </p>
+    </section>
+    <section class="section" id="short-summary">
+      <h2 class="section-item">About myself</h2>
+      <p>
+        I started my career as financial analyst in one of the &quot;Big 4&quot;company. I&#39;ve been working in economics for 5 years and
+        this year have decided to change the sphere.<br>Now I&#39;m interested in front-end development and have
+        started to study it with RS School. I&#39;m confident that my willingness to learn new skills and develop
+        myself will help me to become an excellent front-end developer.
+      </p>
+    </section>
+    <section class="section" id="skills">
+      <h2 class="section-item">Skills</h2>
+      <ul>
+        <li>HTML, CSS, CSS Flex</li>
+        <li>Git</li>
+        <li>VS Code</li>
+      </ul>
+    </section>
+    <section class="section" id="code">
+      <h2 class="section-item">Code example</h2>
+      <pre>
+          <code>
+function multiply(a, b){
+  return a * b;
+}
+          </code>
+        </pre>
+    </section>
+    <section class="section" id="courses">
+      <h2 class="section-item">Courses</h2>
+      <ol>
+        <li>HTML and CSS basics on <a href="https://www.w3schools.com">W3C</a> (in progerss)</li>
+        <li>RS School &quot;JS/FE Pre-School 2022&quot;(in progress)</li>
+      </ol>
+    </section>
+    <section class="section" id="education">
+      <h2 class="section-item">Education</h2>
+      <p>
+        Belarus State Economic University
+      </p>
+    </section>
+    <section class="section" id="languages">
+      <h2 class="section-item">Languages</h2>
+      <ul>
+        <li>English - B2</li>
+        <li>German - A2</li>
+        <li>Russian - Native</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <a href="https://github.com/Anastasiya-Zhoroven"><img class="footer-image" src=https://cdn-icons-png.flaticon.com/512/25/25231.png alt="GitHub">My GitHub</a>
+    <p>2022</p>
+    <a href="https://rs.school/js-stage0/"><img class="footer-image" src="https://rs.school/images/rs_school_js.svg"alt="Logo RS School"></a>
+  </footer>
 </body>
+
 </html>
