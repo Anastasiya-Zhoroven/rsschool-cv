@@ -5,10 +5,15 @@ html {
   body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 100vh;
+    min-width: 100vw;
+    margin: 0 auto;
   }
   
+  .header {
+      background-color: cornflowerblue;
+  }
   .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -17,10 +22,12 @@ html {
   .main-container {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
   }
   
   .section {
     width: 50%;
+    margin: 0 auto;
   }
   
   .nav-list {
@@ -34,25 +41,29 @@ html {
     padding: 0 20px;
     line-height: 50px;
     transition: .3s;
+    color: cornsilk;
   }
   
   .section-item a {
     color: #829985;
     text-decoration: none;  
     transition: color 0.5s;
+    margin: 0 auto;
   }
   
   .section-item a:hover {
     color: #4d2323;
+    margin: 0 auto;
   }
   
   .avatar_1 {
-    border-radius: 10px;
+    border-radius: 50%;
     width: 200px;
   }
   
   .row-container {
     flex-direction: row;
+    margin: 0 auto;
   }
   
   #avatar,#info {
@@ -60,7 +71,7 @@ html {
   }
   
   #info {
-    margin: auto;
+    margin: 0 auto;
   }
   
   .separator {
@@ -70,9 +81,21 @@ html {
   
 .footer {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    color: cornsilk;
 }
 
   .footer-image {
-    width: 20px;
+    width: 25px;
+  }
+
+  .footer-image2 {
+    width: 50px;
   }
   
+  .github-link {
+      color: cornsilk;
+  }
