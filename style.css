@@ -98,4 +98,13 @@ html {
   
   .github-link {
       color: cornsilk;
+      vertical-align: middle;
+      display:flex;
+  }
+
+  .github-link:after {
+      content: "My GitHub";
+      line-height: 35px;
+      margin-left:10px;
+      
   }
